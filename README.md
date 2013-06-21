@@ -18,8 +18,9 @@ ___________________________________________________
 ___________________________________________________
 ___________________________________________________
 
-To run a DNAScript program, boot up your command line and compile:
+To run a DNAScript program, cd into the src directory and compile:
 > scalac *.scala
+
 Then run the DNARunner program:
 > scala DNARunner [string of code]
 
