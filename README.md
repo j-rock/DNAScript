@@ -18,9 +18,9 @@ ___________________________________________________
 ___________________________________________________
 ___________________________________________________
 
-Currently DNARunner.scala is broken. The dependencies are somehow screwed up. Otherwise...
-
-To run a DNAScript program, boot up your command line and enter:
-> scala DNARunner.scala [string of code]
+To run a DNAScript program, boot up your command line and compile:
+> scalac *.scala
+Then run the DNARunner program:
+> scala DNARunner [string of code]
 
 where [string of code] refers to a literal string of DNAScript
